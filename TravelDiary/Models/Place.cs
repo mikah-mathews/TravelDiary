@@ -6,16 +6,25 @@ namespace TravelDiary.Models
   {
     public string CityName { get; set; }
 
-    // public string CountryName { get; set; }
+    public string CountryName { get; set; }
+
+    public string TravelCompanions { get; set; }
+
+    public string TravelEntry { get; set; }
+
+    public string TravelDate { get; set; }
 
     public int Id { get; }
     
     private static List<Place> _instances = new List<Place> {};
 
-    public Place(string cityName)
+    public Place(string cityName, string countryName, string travelCompanions, string travelEntry, string travelDate)
     {
       CityName = cityName;
-      // CountryName = countryName;
+      CountryName = countryName;
+      TravelCompanions = travelCompanions;
+      TravelEntry = travelEntry;
+      TravelDate = travelDate;
       _instances.Add(this);
       Id = _instances.Count;
     }

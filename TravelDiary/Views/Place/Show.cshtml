@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Trip Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Places I've Visited: </h1>
+
+    <h1>City</h1>
+    <h2>@Model.CityName</h2>
+    <h1>Country</h1>
+    <h2>@Model.CountryName</h2>
+    <h1>Travel Companions</h1>
+    <h2>@Model.TravelCompanions</h2>
+    <h1>Travel Date</h1>
+    <h2>@Model.TravelDate</h2>
+    <h1>Travel Entry</h1>
+    <h4>@Model.TravelEntry</h4>
+    
+
+    <a href='/places/new'>Add another place</a>
+    <hr>
+    <a href='/places'>View all places visited</a>
+  </body>
+</html>

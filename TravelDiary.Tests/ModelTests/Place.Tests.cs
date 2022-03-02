@@ -16,7 +16,7 @@ namespace TravelDiary.TestTools
     [TestMethod]
     public void PlaceConstructor_CreatesInstanceOfPlace_Place()
     {
-      Place place = new Place("Boise", "USA");
+      Place place = new Place("Boise");
       Assert.AreEqual(typeof(Place), place.GetType());
     }
 
@@ -28,7 +28,7 @@ namespace TravelDiary.TestTools
 
       //Act
       Place newPlace = new Place(cityName);
-      string result = newPlace.cityName;
+      string result = newPlace.CityName;
 
       //Assert
       Assert.AreEqual(cityName, result);
@@ -39,15 +39,15 @@ namespace TravelDiary.TestTools
     {
       //Arrange
       string cityName = "Seattle";
-      Item newItem = new Item(cityName);
+      Place newPlace = new Place(cityName);
 
       //Act
       string updatedCityName = "Portland";
-      newItem.CityName = updatedCityName;
-      string result = newItem.CityName;
+      newPlace.CityName = updatedCityName;
+      string result = newPlace.CityName;
 
       //Assert
-      Assert.AreEqual(updatedDescription, result);
+      Assert.AreEqual(updatedCityName, result);
     }
 
     [TestMethod]
