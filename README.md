@@ -2,7 +2,7 @@
 
 #### By Mikah Mathews and Ryan Ashby
 
-#### _{Brief description of application}_
+#### _Add and delete different trips that you have been on_
 
 ## Technologies Used
 * C#
@@ -11,19 +11,18 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This is a website application to add different trips and view details about them._
 
 ## Setup/Installation Requirements
 
 
 
 * Clone this repository to your local machine
-* Navigate to the {Template.Tests} folder using your terminal.
+* Navigate to the TravelDiary.Tests folder using your terminal.
 * To install the project's dependencies, in the terminal type ```dotnet restore```
 * Once dependencies are installed, type ```dotnet test``` in the terminal to run the project's tests.
-* To run the application navigate to the {Template} folder using the terminal.
-* Once in the {Template} folder, type ```dotnet run``` to run the program.
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* To run the application navigate to the TravelDiary folder using the terminal.
+* Once in the TravelDiary folder, type ```dotnet run``` to run the program.
 
 ## Known Bugs
 
@@ -33,7 +32,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 MIT License
 
-Copyright (c) [2022] [Mikah Mathews](https://github.com/mikah-mathews)
+Copyright (c) [2022] [Mikah Mathews](https://github.com/mikah-mathews) [Ryan Ashby](https://github.com/rjashby)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
